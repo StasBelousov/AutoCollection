@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		199A8E762517927E005D47B3 /* NewAutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A8E752517927E005D47B3 /* NewAutoTableViewController.swift */; };
 		19F4DE18251492C30044BEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4DE17251492C30044BEEA /* AppDelegate.swift */; };
 		19F4DE1A251492C30044BEEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4DE19251492C30044BEEA /* SceneDelegate.swift */; };
-		19F4DE1C251492C30044BEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4DE1B251492C30044BEEA /* ViewController.swift */; };
 		19F4DE1F251492C30044BEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F4DE1D251492C30044BEEA /* Main.storyboard */; };
 		19F4DE21251492C70044BEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F4DE20251492C70044BEEA /* Assets.xcassets */; };
 		19F4DE24251492C70044BEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F4DE22251492C70044BEEA /* LaunchScreen.storyboard */; };
+		19F4DE2C2515C1DD0044BEEA /* AutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4DE2B2515C1DD0044BEEA /* AutoTableViewController.swift */; };
+		19F4DE2E2515C2A90044BEEA /* AutoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4DE2D2515C2A90044BEEA /* AutoModel.swift */; };
+		19F4DE302515C4060044BEEA /* AutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4DE2F2515C4060044BEEA /* AutoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		199A8E752517927E005D47B3 /* NewAutoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAutoTableViewController.swift; sourceTree = "<group>"; };
 		19F4DE14251492C30044BEEA /* AutoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F4DE17251492C30044BEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19F4DE19251492C30044BEEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19F4DE1B251492C30044BEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19F4DE1E251492C30044BEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19F4DE20251492C70044BEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F4DE23251492C70044BEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19F4DE25251492C70044BEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F4DE2B2515C1DD0044BEEA /* AutoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTableViewController.swift; sourceTree = "<group>"; };
+		19F4DE2D2515C2A90044BEEA /* AutoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoModel.swift; sourceTree = "<group>"; };
+		19F4DE2F2515C4060044BEEA /* AutoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				19F4DE17251492C30044BEEA /* AppDelegate.swift */,
 				19F4DE19251492C30044BEEA /* SceneDelegate.swift */,
-				19F4DE1B251492C30044BEEA /* ViewController.swift */,
 				19F4DE1D251492C30044BEEA /* Main.storyboard */,
+				199A8E752517927E005D47B3 /* NewAutoTableViewController.swift */,
+				19F4DE2B2515C1DD0044BEEA /* AutoTableViewController.swift */,
+				19F4DE2F2515C4060044BEEA /* AutoTableViewCell.swift */,
+				19F4DE2D2515C2A90044BEEA /* AutoModel.swift */,
 				19F4DE20251492C70044BEEA /* Assets.xcassets */,
 				19F4DE22251492C70044BEEA /* LaunchScreen.storyboard */,
 				19F4DE25251492C70044BEEA /* Info.plist */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F4DE1C251492C30044BEEA /* ViewController.swift in Sources */,
+				19F4DE2E2515C2A90044BEEA /* AutoModel.swift in Sources */,
+				19F4DE2C2515C1DD0044BEEA /* AutoTableViewController.swift in Sources */,
+				199A8E762517927E005D47B3 /* NewAutoTableViewController.swift in Sources */,
 				19F4DE18251492C30044BEEA /* AppDelegate.swift in Sources */,
+				19F4DE302515C4060044BEEA /* AutoTableViewCell.swift in Sources */,
 				19F4DE1A251492C30044BEEA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
